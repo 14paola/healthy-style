@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthy Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de Calorías e IMC</h1>
+  <form id="formulario">
+    <input type="number" placeholder="Edad" id="edad">
+    <input type="text" placeholder="Sexo (masculino/femenino)" id="sexo">
+    <input type="number" placeholder="Peso (kg)" id="peso">
+    <input type="number" placeholder="Altura (cm)" id="altura">
+    <select id="actividad">
+      <option value="sedentario">Sedentario</option>
+      <option value="ligero">Ligero</option>
+      <option value="moderado">Moderado</option>
+      <option value="intenso">Intenso</option>
+      <option value="muy_intenso">Muy intenso</option>
+    </select>
+    <button type="submit">Calcular</button>
+  </form>
+
+  <div id="resultados"></div>
+  <script src="script.js"></script>
+</body>
+</html>
