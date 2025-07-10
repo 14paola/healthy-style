@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: healthy-style
+    env: docker
+    repo: https://github.com/14paola/healthy-style
+    plan: free
+    dockerfilePath: frontend_web/Dockerfile
+    autoDeploy: true
