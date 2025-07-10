@@ -4,5 +4,5 @@ services:
     env: docker
     repo: https://github.com/14paola/healthy-style
     plan: free
-    dockerfilePath: ./docker-compose.yml
+    dockerComposefilePath: ./docker-compose.yml
     autoDeploy: true
